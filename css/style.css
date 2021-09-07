@@ -61,14 +61,18 @@ a:hover {
     flex-shrink: 1;
     flex-grow: 1;
     flex-basis: 20rem;
-
     margin: 8px;
-
     align-items: flex-end;
     justify-content: flex-start;
     position: relative;
     font-size: 0.875rem;
     word-break: break-word;
+    opacity: 0.8;
+    transition: 120ms opacity ease-in-out;
+}
+
+.portfolio a:hover {
+    opacity: 1;
 }
 
 .portfolio__image {
